@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 4000;
 
 server.get('/api/hello', ( req, res ) => {
     res.json({
-        message: 'hello'
+        message: 'hello all of you'
     })
 })
 server.get( '*', ( req, res ) => {
